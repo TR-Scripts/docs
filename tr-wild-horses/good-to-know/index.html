@@ -315,9 +315,32 @@
 <div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
     <div data-slot="sidebar-group-label" data-sidebar="group-label"
         class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr crafting</div>
+        Scripts</div>
     <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
         <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="closed"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-crafting
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
+
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -426,16 +449,31 @@
             
         </ul>
     </div>
-</div>
+</li>
+            
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="closed"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-jobs
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
 
-
-
-<div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
-    <div data-slot="sidebar-group-label" data-sidebar="group-label"
-        class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr jobs</div>
-    <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
-        <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -484,16 +522,31 @@
             
         </ul>
     </div>
-</div>
+</li>
+            
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="closed"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-journal
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
 
-
-
-<div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
-    <div data-slot="sidebar-group-label" data-sidebar="group-label"
-        class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr journal</div>
-    <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
-        <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -572,16 +625,31 @@
             
         </ul>
     </div>
-</div>
+</li>
+            
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="closed"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-mail
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
 
-
-
-<div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
-    <div data-slot="sidebar-group-label" data-sidebar="group-label"
-        class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr mail</div>
-    <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
-        <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -675,16 +743,31 @@
             
         </ul>
     </div>
-</div>
+</li>
+            
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="closed"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-rumors
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
 
-
-
-<div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
-    <div data-slot="sidebar-group-label" data-sidebar="group-label"
-        class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr rumors</div>
-    <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
-        <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -733,16 +816,31 @@
             
         </ul>
     </div>
-</div>
+</li>
+            
+            
+            
+            <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
+    
+    <button data-slot="collapsible-trigger" data-sidebar="menu-button" data-size="default" data-active="false"
+        class="peer/menu-button group/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-open:hover:bg-sidebar-accent data-open:hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 [&amp;&gt;span:last-child]:truncate hover:bg-sidebar-accent hover:text-sidebar-accent-foreground h-8 text-[0.8rem] font-medium"
+        type="button" aria-expanded="true"
+        data-state="open"
+        onclick="this.setAttribute('data-state', this.getAttribute('data-state') === 'closed' ? 'open' : 'closed')">
+        
+        tr-wild-horses
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-chevron-right ml-auto transition-[stroke,rotate] duration-200 group-data-[state=open]/menu-button:rotate-90 group-data-[state=closed]/menu-button:stroke-muted-foreground">
+            <path d="m9 18 6-6-6-6"></path>
+        </svg>
+    </button>
+    <div data-state="open" data-slot="collapsible-content"
+        class="grid grid-rows-[0fr] transition-[grid-template-rows] peer-data-[state=open]/menu-button:grid-rows-[1fr] py-0.5">
+        <ul data-slot="sidebar-menu-sub" data-sidebar="menu-sub"
+            class="overflow-hidden ml-3.5 flex flex-col gap-0.5 border-l border-sidebar-border pl-2.5">
 
-
-
-<div data-slot="sidebar-group" data-sidebar="group" class="relative flex w-full min-w-0 flex-col p-2">
-    <div data-slot="sidebar-group-label" data-sidebar="group-label"
-        class="flex h-8 shrink-0 items-center rounded-md px-2 text-xs ring-sidebar-ring outline-hidden transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-medium text-muted-foreground">
-        Tr wild horses</div>
-    <div data-slot="sidebar-group-content" data-sidebar="group-content" class="w-full text-sm">
-        <ul data-slot="sidebar-menu" data-sidebar="menu" class="flex w-full min-w-0 flex-col gap-0.5">
             
             
             <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
@@ -786,6 +884,11 @@
         
         
     </a>
+</li>
+            
+            
+        </ul>
+    </div>
 </li>
             
             
@@ -899,216 +1002,9 @@
             <div class="flex flex-col gap-8">
                 
                 <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr crafting</div>
+                    <div class="text-muted-foreground text-sm font-medium">Scripts</div>
                     
                     <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/installation/">
-                            
-                            Installation
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/configuration/">
-                            
-                            Configuration
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/recipes/">
-                            
-                            Recipes
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/props/">
-                            
-                            Props & field crafting
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/developers/">
-                            
-                            For developers
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-crafting/troubleshooting/">
-                            
-                            Troubleshooting
-                            
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr jobs</div>
-                    
-                    <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../../tr-jobs/overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-jobs/commands/">
-                            
-                            Commands
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-jobs/callbacks/">
-                            
-                            Callbacks
-                            
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr journal</div>
-                    
-                    <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../../tr-journal/overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-journal/installation/">
-                            
-                            Installation
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-journal/configuration/">
-                            
-                            Configuration
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-journal/using/">
-                            
-                            Using the journal
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-journal/troubleshooting/">
-                            
-                            Troubleshooting
-                            
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr mail</div>
-                    
-                    <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/installation/">
-                            
-                            Installation
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/configuration/">
-                            
-                            Configuration
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/using/">
-                            
-                            Using tr-mail
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/mail-carriers/">
-                            
-                            Mail carriers
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-mail/troubleshooting/">
-                            
-                            Troubleshooting
-                            
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr rumors</div>
-                    
-                    <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../../tr-rumors/overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-rumors/configuration/">
-                            
-                            Configuration
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../../tr-rumors/developers/">
-                            
-                            For developers
-                            
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="flex flex-col gap-4">
-                    <div class="text-muted-foreground text-sm font-medium">Tr wild horses</div>
-                    
-                    <div class="flex flex-col gap-3">
-                        
-                        <a class="text-2xl font-medium" href="../overview/">
-                            
-                            Overview
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="../installation/">
-                            
-                            Installation
-                            
-                        </a>
-                        
-                        <a class="text-2xl font-medium" href="./">
-                            
-                            Good to know
-                            
-                        </a>
                         
                     </div>
                     
