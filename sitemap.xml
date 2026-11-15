@@ -33,6 +33,38 @@
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
+         <loc>https://tr-scripts.github.io/docs/tr-jobs/overview/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-jobs/commands/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-jobs/callbacks/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-journal/overview/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-journal/installation/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-journal/configuration/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-journal/using/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-journal/troubleshooting/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
          <loc>https://tr-scripts.github.io/docs/tr-mail/overview/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
@@ -57,23 +89,27 @@
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
-         <loc>https://tr-scripts.github.io/docs/tr-journal/overview/</loc>
+         <loc>https://tr-scripts.github.io/docs/tr-rumors/overview/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
-         <loc>https://tr-scripts.github.io/docs/tr-journal/installation/</loc>
+         <loc>https://tr-scripts.github.io/docs/tr-rumors/configuration/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
-         <loc>https://tr-scripts.github.io/docs/tr-journal/configuration/</loc>
+         <loc>https://tr-scripts.github.io/docs/tr-rumors/developers/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
-         <loc>https://tr-scripts.github.io/docs/tr-journal/using/</loc>
+         <loc>https://tr-scripts.github.io/docs/tr-wild-horses/overview/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
     <url>
-         <loc>https://tr-scripts.github.io/docs/tr-journal/troubleshooting/</loc>
+         <loc>https://tr-scripts.github.io/docs/tr-wild-horses/installation/</loc>
+         <lastmod>2026-11-15</lastmod>
+    </url>
+    <url>
+         <loc>https://tr-scripts.github.io/docs/tr-wild-horses/good-to-know/</loc>
          <lastmod>2026-11-15</lastmod>
     </url>
 </urlset>
