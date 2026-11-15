@@ -1,0 +1,5 @@
+/* let long table cells wrap instead of being cut off */
+table td,
+table th {
+    white-space: normal !important;
+}
