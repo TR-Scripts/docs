@@ -296,7 +296,7 @@
         data-size="default" href="../.."
         class="peer/menu-button flex items-center gap-2 rounded-md p-2 text-left ring-sidebar-ring outline-hidden transition-[width,height,padding] group-has-data-[sidebar=menu-action]/menu-item:pr-8 group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground relative h-[30px] w-fit overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md data-[active=true]:border-accent data-[active=true]:bg-accent 3xl:fixed:w-full 3xl:fixed:max-w-48">
         
-        TR-Scripts
+        Home
         
         
         
@@ -1090,17 +1090,33 @@
   </div>
   <div class="typography w-full flex-1 *:data-[slot=alert]:first:mt-0">
     <ol>
-<li><strong>Database:</strong> journals are stored in a <code>tr_journals</code> table. If your copy includes a <code>.sql</code> file, import it. Otherwise, create the table with:</li>
+<li><strong>Database:</strong> journals are stored in a <code>tr_journals</code> table. If your copy includes a <code>.sql</code> file,
+   import it. Otherwise, create the table with:</li>
 </ol>
-<p><code>sql
-   CREATE TABLE IF NOT EXISTS `tr_journals` (
-       `id` INT NOT NULL AUTO_INCREMENT,
-       `title` VARCHAR(64) NOT NULL DEFAULT '',
-       `pages` LONGTEXT NOT NULL,
-       `page_max` INT NOT NULL DEFAULT 1,
-       PRIMARY KEY (`id`)
-   );</code>
-2. <strong>Items:</strong> add these items to your VORP inventory items table (names must match exactly):</p>
+<div class="codehilite"><pre><span></span><code><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="o">`</span><span class="n">tr_journals</span><span class="o">`</span>
+<span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span>
+<span class="w">    </span><span class="nb">INT</span>
+<span class="w">    </span><span class="k">NOT</span>
+<span class="w">    </span><span class="k">NULL</span>
+<span class="w">    </span><span class="n">AUTO_INCREMENT</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">title</span><span class="o">`</span>
+<span class="w">    </span><span class="nb">VARCHAR</span>
+<span class="p">(</span>
+<span class="w">    </span><span class="mi">64</span>
+<span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="w"> </span><span class="k">DEFAULT</span><span class="w"> </span><span class="s1">''</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">pages</span><span class="o">`</span><span class="w"> </span><span class="n">LONGTEXT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="o">`</span><span class="n">page_max</span><span class="o">`</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="w"> </span><span class="k">DEFAULT</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">    </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span>
+<span class="p">(</span>
+<span class="w">    </span><span class="o">`</span><span class="n">id</span><span class="o">`</span>
+<span class="p">)</span>
+<span class="w">    </span><span class="p">);</span>
+</code></pre></div>
+
+<ol>
+<li><strong>Items:</strong> add these items to your VORP inventory items table (names must match exactly):</li>
+</ol>
 <div class="table-wrapper"><table>
 <thead>
 <tr>
@@ -1124,16 +1140,21 @@
 </tbody>
 </table></div>
 <ol>
-<li><strong>Resource:</strong> put the <code>tr-journal</code> folder in your resources and add it to <code>server.cfg</code> <strong>after</strong> its requirements:</li>
+<li><strong>Resource:</strong> put the <code>tr-journal</code> folder in your resources and add it to <code>server.cfg</code> <strong>after</strong>
+   its requirements:</li>
 </ol>
-<p><code>cfg
-   ensure oxmysql
-   ensure vorp_core
-   ensure vorp_inventory
-   ensure jo_libs
-   ensure tr-journal</code>
-4. <strong>Configure</strong> it (see below) and restart the server.</p>
-<p>To hand out journals, add <code>journal_blank</code> to a store, a crafting recipe, or a starter kit. Players never need to be given <code>journal_written</code> or <code>torn_page</code> directly; the script creates those.</p>
+<div class="codehilite"><pre><span></span><code><span class="na">ensure oxmysql</span>
+<span class="na">ensure vorp_core</span>
+<span class="na">ensure vorp_inventory</span>
+<span class="na">ensure jo_libs</span>
+<span class="na">ensure tr-journal</span>
+</code></pre></div>
+
+<ol>
+<li><strong>Configure</strong> it (see below) and restart the server.</li>
+</ol>
+<p>To hand out journals, add <code>journal_blank</code> to a store, a crafting recipe, or a starter kit. Players
+never need to be given <code>journal_written</code> or <code>torn_page</code> directly; the script creates those.</p>
 <hr />
   </div>
 </article>
@@ -1185,7 +1206,7 @@
                     
                     <a class="text-2xl font-medium" href="../..">
                         
-                        TR-Scripts
+                        Home
                         
                     </a>
                     
