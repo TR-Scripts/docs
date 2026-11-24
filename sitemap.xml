@@ -2,142 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.tr-scripts.dev/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/overview/</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/installation/</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/configuration/</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/storefront/</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/discord/</loc>
+         <lastmod>2026-11-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.tr-scripts.dev/tr-business/troubleshooting/</loc>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/installation/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/configuration/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/recipes/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/props/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/developers/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-crafting/troubleshooting/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-jobs/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-jobs/commands/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-jobs/callbacks/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-journal/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-journal/installation/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-journal/configuration/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-journal/using/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-journal/troubleshooting/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/installation/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/configuration/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/using/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/mail-carriers/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-mail/troubleshooting/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/installation/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/configuration/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/properties/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/doors_and_keys/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/developers/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-properties/troubleshooting/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-rumors/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-rumors/configuration/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-rumors/developers/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-wild-horses/overview/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-wild-horses/installation/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
     <url>
          <loc>https://docs.tr-scripts.dev/tr-wild-horses/good-to-know/</loc>
-         <lastmod>2026-11-17</lastmod>
+         <lastmod>2026-11-24</lastmod>
     </url>
 </urlset>
